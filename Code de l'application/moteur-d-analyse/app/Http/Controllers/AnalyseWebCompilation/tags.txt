@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site Web de Jérémy Holay">
+    <meta name="keywords" content="Jeremy Holay, Jérémy Holay, Holay, holay, Développeur, Web, Site, PortFolio, CV, Front-End, Back-End, HTML, CSS, JS, PHP, C">
+    <meta name="author" content="Jérémy Holay">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/5d623c7aaa.js">
+</script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" media="all" />
+    <title>Jérémy HOLAY - Présentation</title>
+</head>
+
+<body>
+    <div>
+        <header class="parallax pres">
+                        <h1>Jérémy Holay</h1>
+        </header>
+        <span class="source">
+<a href="https://wallhere.com/fr/wallpaper/1221505" target="_blank">
+<i class="fas fa-camera">
+</i> https://wallhere.com/fr/wallpaper/1221505</a>
+</span>
+    </div>
+    <div class="light-main-color-bg">
+        <div class="part-title">Présentation</div>
+        <div id="presentation">
+            <p>Bonjour ! Je m'appelle Jérémy Holay et je suis titulaire d'un DUT Informatique et étudiant en
+                <b>3<sup>ème</sup> année de licence informatique</b> à
+                l'Université de Rouen.</p>
+            <p>
+                J'ai choisi de me lancer dans le vaste domaine de l'informatique, omniprésent dans le monde actuel et en
+                constante évolution.<br>
+                Je passe mon temps à <b>découvrir</b> et <b>apprendre de nouvelles choses</b> et cela entretient ma motivation !
+            </p>
+        </div>
+    </div>
+    <div class="part-title">Mes services</div>
+    <div id="services">
+        <div class="service">
+            <i class="fas fa-link">
+</i>
+            <p>
+                Création d'un site Web avec une base de données
+            </p>
+        </div>
+        <div class="service">
+            <i class="fas fa-network-wired">
+</i>
+            <p>
+                Mise en place et configuration d'un réseau informatique
+            </p>
+        </div>
+        <div class="service">
+            <i class="fas fa-desktop">
+</i>
+            <p>
+                Création d'application en Java, C#, C, Python
+            </p>
+        </div>
+    </div>
+    <div class="parallax projects">
+        <div class="part-title">Mes réalisations</div>
+        <div id="projects">
+            <div class="project" data-id="1">
+                <p class="title">
+                    Convertisseur entre les formats AMC-TXT et GIFT-TXT
+                </p>
+                <p class="description">
+                    Application Web réalisée en PHP permettant la conversion
+                    d'un fichier écrit en respectant le format AMC-TXT vers un fichier écrit en respectant le format GIFT-TXT.
+                    Ces deux formats permettent de générer des QCM respectivement sur le logiciel AMC et sur la plateforme d'enseignement Moodle.
+                </p>
+            </div>
+            <a class="project" href="https://github.com/homycal/Simulation-of-simplified-body-drop-equations"
+                target="_blank" title="Voir sur Github" data-id="2">
+                <p class="title">
+                    Simulation des équations simplifiées de la chute d'un corps (Refonte)
+                </p>
+                <p class="description">
+                    Logiciel réalisé en C# permettant la simulation des équations simplifiées de la chute d'un corps. Ce
+                    projet est une refonte du projet réalisé en terminale.
+                </p>
+            </a>
+            <a class="project" href="https://github.com/homycal/Petits-Chevaux-Java" target="_blank"
+                title="Voir sur Github" data-id="3">
+                <p class="title">
+                    Le jeu des petits chevaux (Version 2)
+                </p>
+                <p class="description">
+                    Projet universitaire réalisé en Java permettant de jouer au jeu des petits chevaux, sans interface
+                    graphique.
+                </p>
+            </a>
+            <a class="project" href="https://github.com/homycal/Website-Jeremy-Holay/tree/master/ToucheCoule"
+                target="_blank" title="voir sur Github" data-id="4">
+                <p class="title">
+                    « Touché-Coulé »
+                </p>
+                <p class="description">
+                    Projet universitaire réalisé en HTML/CSS/JavaScript permettant de jouer au jeu du « Touché-Coulé »,
+                    réalisé avec Luc Audabram.
+                </p>
+            </a>
+            <a class="project" href="https://github.com/homycal/Petits-Chevaux-C" target="_blank"
+                title="Voir sur Github" data-id="5">
+                <p class="title">
+                    Le jeu des petits chevaux (Version 1)
+                </p>
+                <p class="description">
+                    Projet universitaire réalisé en C permettant de jouer au jeu des petits chevaux, avec un affichage
+                    du plateau en mode console, réalisé avec Chanelle Mazenq.
+                </p>
+            </a>
+            <a class="project" data-id="6">
+                <p class="title">
+                    Refonte du Site Web du Refuge Animalia
+                </p>
+                <p class="description">
+                    Projet universitaire comprenant la refonte du Site Web de l'association « Le Refuge Animalia », en
+                    ajoutant une interface d'administration permmettant la publications d'articles et de photos.
+                    Le projet n'a malheuresement pas retenu l'attention de la cliente.
+                    Il a été réalisé avec Nathan Bonnemains, Mathilde Goré, Gérémy L'Ecuyer, Jessy Monnier et Mélissande
+                    Simonin
+                </p>
+            </a>
+            <a class="project" href="https://github.com/homycal/Simulation-Chute-Corps-Simplifie" target="_blank"
+                title="Voir sur Github" data-id="7">
+                <p class="title">
+                    Simulation des équations simplifiées de la chute d'un corps
+                </p>
+                <p class="description">
+                    Logiciel réalisé en Python 3, dans le cadre d'une épreuve du bac en terminale, permettant la
+                    simulation des équations simplifiées de la chute d'un corps, réalisé avec Valentin Feuillet.
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="part-title">Mes compétences</div>
+    <div id="skills">
+        <div class="skills-col">
+            <span class="category">Langages de programmation :</span> C, C#, Java, Python 3, JavaScript, PHP<br>
+            <span class="category">Langages Web :</span> HTML5, CSS3<br>
+            <span class="category">Langages de manipulaion des données :</span> SQL, PL/SQL<br>
+            <div class="skill-section">
+                <span class="category">Langue étrangère :</span> Anglais <i>( TOEIC 2020 : 945 points )</i>
+<br>
+                <span class="category">Communication :</span> Communication professionnelle, Communication dans les
+                organisations<br>
+            </div>
+        </div>
+        <div class="skills-col">
+            <span class="category">Bases de données :</span> Oracle, MySQL, MongoDB<br>
+            <span class="category">Frameworks :</span> EmberJS, Springboot<br>
+            <span class="category">Plateformes :</span> Windows, Linux<br>
+            <span class="category">Outils :</span> Visual Studio, Visual Studio Code, Eclipse, WebStorm, IntelliJ,
+            Android Studio, Git, Adobe Illustrator, Suite Libre Office, Suite Microsoft Office<br>
+            <span class="category">Techniques de modélisations :</span> MERISE, UML, Création de bases de données<br>
+            <span class="category">Méthodes de travail :</span> Gestion de projets agile, SCRUM<br>
+        </div>
+    </div>
+    <div class="blue-bg">
+        <div class="part-title">Mon parcours</div>
+        <div id="pathway">
+            <div class="path">
+                <i class="fas fa-university">
+</i>
+                <p class="path-title">Etudes supérieures</p>
+                <div class="second-color-bar">
+</div>
+                <p class="path-content">
+                    <span class="category">2020 - Aujourd'hui :</span> 3<sup>ème</sup> année de Licence Informatique à
+                    l'Université de Rouen, Campus
+                    du Madrillet
+                    <br>
+                    <span class="category">2018 - 2020 :</span> IUT Informatique à l'IUT Grand Ouest Normandie, Antenne
+                    d'Ifs
+                </p>
+
+            </div>
+            <div class="path">
+                <i class="fas fa-graduation-cap">
+</i>
+                <p class="path-title">Diplômes et certifications</p>
+                <div class="second-color-bar">
+</div>
+                <p class="path-content">
+                    <span class="category">Septembre 2020 :</span> Obtention du DUT Informatique<br>
+                    <span class="category">Janvier 2020 :</span> TOEIC Anglais, <i>945 points</i>
+<br>
+                    <span class="category">Août 2019 :</span> Obtention du permis B<br>
+                    <span class="category">Juillet 2018 :</span> Obtention d'un Bac <abbr title="Scientifique">S</abbr>
+                    option <abbr title="Sciences de l'Ingénieur">SI</abbr>, spécialité <abbr title="Informatique et Sciences du Numérique">ISN</abbr>, <i>Mention Très Bien</i>
+<br>
+                    <span class="category">Juillet 2015 :</span> Obtention du Brevet des collèges, <i>Mention Très
+                        Bien</i>
+<br>
+                </p>
+            </div>
+            <div class="path">
+                <i class="fas fa-briefcase">
+</i>
+                <p class="path-title">Experiences professionelles</p>
+                <div class="second-color-bar">
+</div>
+                <p class="path-content">
+                    <span class="category">Juin 2015 :</span> Stage en école primaire de Montreuil-l'Argillé, Analyse du
+                    travail de l'équipe pédagogique <i>(1 semaine)</i>
+<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="part-title">Me contacter</div>
+    <div id="errors">
+</div>
+    <div id="contacts">
+        <form id="form-contact" method="post">
+            <label for="mail">Votre adresse mail*</label>
+<br>
+            <input type="text" name="email" id="mail" class="field" placeholder="Adresse email" required maxlength="200">
+<br>
+            <label for="identity">Votre identité*</label>
+<br>
+            <input type="text" name="identity" id="identity" class="field" placeholder="Nom, Prénom" required maxlength="80">
+<br>
+            <label for="message">Votre message*</label>
+<br>
+            <textarea id="message" name="message" class="field" placeholder="Ecrivez votre message ici..." maxlength="1000"
+                required>
+</textarea>
+            <div id="counter">0/1000</div>
+            <button type="submit" name="send">
+<i class="fas fa-envelope">
+</i> Envoyer</button>
+            <div>
+                ou écrivez directement à <a href="mailto:jeremy.holay370@gmail.com">jeremy.holay370@gmail.com</a>
+            </div>
+        </form>
+        <div class="contacts-right">
+            <div class="contact-me">
+                N'hésitez-pas à me contacter par mail ou par mes réseaux ci-dessous si besoin !
+            </div>
+            <div class="social-networks">
+                <a href="https://www.linkedin.com/in/jeremyholay370/" title="Mon profil Linkedin">
+<i class="fab fa-linkedin">
+</i>Linkedin</a>
+                <a href="https://github.com/homycal" title="Mon profil Github">
+<i class="fab fa-github">
+</i>Github</a>
+                <a href="./files/CV_HolayJeremy.pdf" title="Mon CV"> <i class="fas fa-file-pdf">
+</i>Mon CV</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span>Merci à <a href="https://www.linkedin.com/in/mathilde-gore/" target="_blank">Mathilde Goré</a> et Quentin
+            Frebert pour leurs avis en design</span>
+        Jérémy Holay &copy;2020
+    </footer>
+    <script src="./js/script.js">
+</script>
+<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;">
+<a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img">
+<img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com">
+</a>
+</div>
+<script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Go for it</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Prices",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Get Web Hosting for $0.99/month + SSL Certificate for FREE!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div>
+<div class="web-hosting-90-off-image-wrapper">
+<img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png">
+</div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script>
+</body>
+
+</html>
